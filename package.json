@@ -3,7 +3,7 @@
   "scripts": {
     "prepare": "husky",
     "precommit": "pretty-quick --staged",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .",
     "prettier": "npx prettier --check ."
   },
   "devDependencies": {
